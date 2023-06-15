@@ -12,7 +12,7 @@ const ExPage = () => {
             </div>
 
             <BlogPosts title="Implementing Continuous Integration and Delivery in B2B Product Development
-"  categoryname="Product development" authorIamge="bg-[url('https://github.com/DishIs.png')]" authorName="Dishant Singh" authorProff="Frontend Developer" authorDetails="Helped multiple organizations in their digital transformation journey by migrating their on-premises infrastructure to the cloud. History of working with various cloud technologies such as AWS, Microsoft Azure, Google Compute Platform, and OpenStack. Also have a deep understanding of a wide range of DevOps tools such as Git, Jenkins, Ansible, and Docker." date="May 27, 2023">
+"  categoryname="Product development" authorIamge="bg-[url('https://github.com/DishIs.png')]" authorName="Dishant Singh" authorProff="Frontend Developer" authorDetails="Helped multiple organizations in their digital transformation journey by migrating their on-premises infrastructure to the cloud. History of working with various cloud technologies such as AWS, Microsoft Azure, Google Compute Platform, and OpenStack. Also have a deep understanding of a wide range of DevOps tools such as Git, Jenkins, Ansible, and Docker." date="May 27, 2023" id="SaaS">
                 <div className="leading-relaxed">
                     Welcome to the world of B2B product development, where deadlines are tight, competition is fierce, and the stakes are high. But have no fear, because today we're going to talk about a powerful tool that can help you streamline your development process and take your product to the next level: Continuous Integration and Continuous Delivery (CI/CD).
                     <br />

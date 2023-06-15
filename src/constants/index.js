@@ -322,8 +322,9 @@ export const blogs = [
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 3,  // In Minutes only
     },
     {
         id: {
@@ -334,16 +335,18 @@ export const blogs = [
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
         title: "Benefits of outsourcing PHP development",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 5,
     },
     {
         id: {
             first_id: "All",
-            seconds_id: "Logistics"
+            seconds_id: "SaaS"
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 8,
     },
     {
         id: {
@@ -352,8 +355,9 @@ export const blogs = [
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 2,
     },
     {
         id: {
@@ -364,6 +368,7 @@ export const blogs = [
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
         title: "Benefits of outsourcing PHP development",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 6,
     },
     {
         id: {
@@ -372,8 +377,9 @@ export const blogs = [
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 8,
     },
     {
         id: {
@@ -382,8 +388,9 @@ export const blogs = [
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 3,
     },
     {
         id: {
@@ -394,6 +401,7 @@ export const blogs = [
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
         title: "Benefits of outsourcing PHP development",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 5,
     },
     {
         id: {
@@ -402,8 +410,9 @@ export const blogs = [
         },
         date: "May 22, 2023",
         content: "Fast Development with Hot Reloading: With Flutter’s Hot Reload, developers can preview code changes in the emulator, simulators, or hardware for Android or iOS, without recompiling the app.",
-        title: "Flutter Beta Framework to Native App Design/Development",
+        title: "Flutter Beta Framework to Native App Design",
         img: 'https://www.peerbits.com/static/cf4e12146b63e518afa07218c0aa5c95/d80fd/centralized-social-platform-development-thumb.webp',
+        time: 6,
     },
 ];
 

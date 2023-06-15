@@ -3,8 +3,9 @@ import { facebook, linkedin, twitter } from "../assets";
 import Contact from "./Contact"
 import styles from "../style";
 import { Link } from "react-router-dom";
+import { blogs } from "../constants";
 
-const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, authorDetails, date, children }) => {
+const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, authorDetails, date, children, id }) => {
     const [text, setText] = useState("");
     const [readingTime, setReadingTime] = useState(0);
     const [headings, setHeadings] = useState([]);
@@ -149,7 +150,7 @@ const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, 
     ];
     return (
         <>
-            <div className={`${isAuthorFixed ? "fixed top-20  inline-block " : "hidden"} bg-secondary text-primary font-poppins justify-between sm:px-24 px-6 w-full py-4 text-[1.25rem] font-[500] xl:justify-center flex items-center `}>
+            <div className={`${isAuthorFixed ? "fixed top-20  inline-block " : "hidden"} bg-secondary text-primary font-poppins justify-between sm:px-24 px-6 w-full py-4 text-[1.25rem] font-[500] xl:justify-center z-20 flex items-center `}>
                 <div>
                     {title}
                 </div>
@@ -234,9 +235,34 @@ const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, 
                     </div>
                 </div>
                 <div className="text-white hidden ml-14 mr-14 md:inline-block pt-12 font-poppins">
-                    <div>
-                        <div className="text-xl mb-12 font-semibold">
+                    <div className="pb-5">
+                        <div className="text-xl font-semibold">
                             Related Posts
+                        </div>
+                        <div>
+                            {blogs
+                                .filter((content) => content.id.seconds_id === id)
+                                .slice(0, 3)
+                                .map((content) => (
+                                    <div key={content.id} className="py-5 border-b rounded border-secondary">
+                                        <Link className="hover:text-secondary transition duration-300" to={content.link}>
+                                            <div className="flex pb-2 items-center text-xs">
+                                                <div className="pr-2">
+                                                    <svg fill="#00F6FF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10px" height="10px">
+                                                        <path d="M 12 0 C 5.371094 0 0 5.371094 0 12 C 0 18.628906 5.371094 24 12 24 C 18.628906 24 24 18.628906 24 12 C 24 5.371094 18.628906 0 12 0 Z M 12 2 C 17.523438 2 22 6.476563 22 12 C 22 17.523438 17.523438 22 12 22 C 6.476563 22 2 17.523438 2 12 C 2 6.476563 6.476563 2 12 2 Z M 10.9375 3.875 L 10.5 12.0625 L 10.59375 12.9375 L 16.75 18.375 L 17.71875 17.375 L 12.625 11.96875 L 12.1875 3.875 Z" />
+                                                    </svg>
+                                                </div>
+                                                {content.time} min{content.time > 1 ? 's' : ''} Read
+                                            </div>
+                                            <div className="flex gap-4 items-center text-sm max-w-fit">
+                                                <p className="w-32">{content.title}</p>
+                                                <div className="w-28 h-16 rounded-sm overflow-hidden">
+                                                    <img src={content.img} className="w-full object-cover h-full" alt="" />
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                ))}
                         </div>
                     </div>
                     <div>
@@ -261,11 +287,32 @@ const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, 
                     </div>
                 </div>
             </div>
-            <div className="bg-secondary pt-10 pb-20 mt-10 font-poppins">
+            <div className="bg-secondary pt-10 pb-10 mt-10 font-poppins">
                 <div className={`  ${styles.flexStart} ${styles.paddingX}`}>
                     <div className={`${styles.boxWidth}`}>
                         <div className="text-white text-4xl font-bold ">
                             Related Post
+                        </div>
+
+                        <div className="w-full flex-wrap flex gap-5 justify-center  mt-10">
+                            {blogs
+                                .filter((content) => content.id.seconds_id === id)
+                                .slice(0, 3)
+                                .map((content) => (
+                                    <Link to={content.link} className="w-80 mb-5">
+                                        <div className=" sm:mr-6">
+                                            <div className="overflow-hidden">
+                                                <img src={content.img} className="w-full h-full object-cover object-center transition duration-500 scale-100 hover:scale-105 rounded" alt="" />
+                                            </div>
+                                            <div className="mt-4 mb-3 opacity-70 text-sm">
+                                                {content.date}
+                                            </div>
+                                            <div className="text-primary  transition duration-500 hover:text-white">
+                                                {content.title}
+                                            </div>
+                                        </div>
+                                    </Link>
+                                ))}
                         </div>
                     </div>
                 </div>
