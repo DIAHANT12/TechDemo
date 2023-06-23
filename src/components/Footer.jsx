@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} border-t-[1px] border-t-[#3F3E45] pt-10 md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src={logo}
+          src="https://dishis.in/img/logo.png"
           alt="CMTech"
           className="w-[266px] h-[72.14px] object-contain"
         />
