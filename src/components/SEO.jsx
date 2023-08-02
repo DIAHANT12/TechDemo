@@ -44,9 +44,9 @@ const Seo = ({
   const schemaOrgJSONLD = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Peerbits",
+    name: "DishIs",
     description: seoMeta.description,
-    alternateName: "DishIs.technology",
+    alternateName: "DishIs By Dishant Singh",
     url: `${siteUrl}`,
     logo: `${siteUrl}/logo.png`,
     sameAs: [
