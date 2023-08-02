@@ -60,11 +60,11 @@ const GetAFreeQuote = ({className}) => {
                 </div>
 
                 <p className="text-base py-2 opacity-75">
-                  2nd Floor, Meem Procon Pvt Ltd,
+                  1st Floor, DishIs Inc,
                   <br />
-                  Nr. Indraprastha business Park,
+                  Example Address Given,
                   <br />
-                  beside DAV School, Makarba,
+                  near dishis, Makarba,
                   <br />
                   Ahmedabad-380051
                   <br />
@@ -83,7 +83,7 @@ const GetAFreeQuote = ({className}) => {
                 </div>
 
                 <p className="text-base py-2 opacity-75">
-                  539 W. Commerce St #7183,
+                  USA example address,
                   <br />
                   Dallas, TX 75208,
                   <br />
@@ -105,9 +105,9 @@ const GetAFreeQuote = ({className}) => {
                 </div>
 
                 <p className="text-base py-2 opacity-75" >
-                  Sarresdorferstr. 79
+                  Example Adress, 00
                   <br />
-                  54568, Gerolstein
+                  12345, Example
                   <br />
                   Germany
                   <br />
@@ -128,9 +128,9 @@ const GetAFreeQuote = ({className}) => {
                 </div>
 
                 <p className="text-base py-2 opacity-75">
-                  P.O. Box: 131, P.C: 115, Alkhweer,
+                  P.O. Box: 000, P.C: 123, Example,
                   <br />
-                  Jasmin Complex, office 203
+                  example address, office 000
                   <br />
                   Muscat, Sultanate of Oman
                   <br />
