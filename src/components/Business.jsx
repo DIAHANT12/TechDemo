@@ -34,7 +34,7 @@ const Business = () => (
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        At Commencement Technology, we invest in innovation to unleash new potential for our client's organizations. Established in 2016, we have overcome challenges and delivered solutions with unwavering dedication over the years. Our competitive advantage lies in our pool of experts, industry expertise, and a genuine understanding of what it takes to succeed.
+        At DishIs Technology, we invest in innovation to unleash new potential for our client's organizations. Established in 2016, we have overcome challenges and delivered solutions with unwavering dedication over the years. Our competitive advantage lies in our pool of experts, industry expertise, and a genuine understanding of what it takes to succeed.
       </p>
 
       <Button styles={`mt-10`} />

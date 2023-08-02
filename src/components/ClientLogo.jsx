@@ -46,7 +46,7 @@ const ClientLogo = () => {
                 </h2>
 
                 <p className={`${styles.paragraph}  mt-5`}>
-                    By assembling a team of dedicated offshore developers, Commencement Technology has successfully aided global enterprises in their growth by providing top-quality software solutions.
+                    By assembling a team of dedicated offshore developers, DishIs Technology has successfully aided global enterprises in their growth by providing top-quality software solutions.
                 </p>
             </div>
 

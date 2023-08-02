@@ -21,7 +21,7 @@ const Seo = ({
   const ogUrl =
     typeof window !== "undefined" ? window.location.pathname : null;
   const siteUrl = window.location.origin;
-  const ogSiteNameDefault = `Commencement Technology`;
+  const ogSiteNameDefault = `DishIs Technology`;
   const ogTypeDefault = `article`;
   const twitterCardDefault = `summary_large_image`;
 
@@ -46,7 +46,7 @@ const Seo = ({
     "@type": "Organization",
     name: "Peerbits",
     description: seoMeta.description,
-    alternateName: "commencement.technology",
+    alternateName: "DishIs.technology",
     url: `${siteUrl}`,
     logo: `${siteUrl}/logo.png`,
     sameAs: [
