@@ -11,6 +11,7 @@ import FlutterEx from "./flutter-ex";
 import HireDev from "./hire-dev";
 import ProcessPage from "./process-ex";
 import IosProcessEx from "./ios-process-ex";
+import { ClientLogo, Clients } from "./components";
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/ios-process-ex" element={<IosProcessEx/>}></Route>
         <Route path="/logistic-software-development" element={<LogisticSoftDev/>}></Route>
         <Route path="/case-studies/bridging_the_gap_in_online_education_integration_of_ai_and_gaming" element={<CaseStudies/>}></Route>
+        <Route path="/clients" element={<ClientLogo/>}></Route>
       </Routes>
     </BrowserRouter>
    </>

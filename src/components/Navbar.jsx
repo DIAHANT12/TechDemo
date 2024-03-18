@@ -16,9 +16,9 @@ const Navbar = () => {
   }, [toggle])
   console.log(toggle)
   return (
-    <nav className="flex z-50 py-6 items-center navbar justify-between md:justify-around py-2 backdrop-blur-md shadow-md w-full sm:px-10 fixed top-0 left-0 right-0 px-2 md:px-3">
+    <nav className="flex z-50 py-2 items-center navbar justify-between md:justify-around  backdrop-blur-md shadow-md w-full sm:px-10 fixed top-0 left-0 right-0 px-2 md:px-3">
       <Link className="z-50" to="/">
-        <img src="https://dishis.in/img/logo.png" alt="hoobank" className={`${toggle === true ? "bg-primary rounded p-2 transition duration-300" : " transition duration-300"} transition duration-300 w-[224px] h-[64px] z-50`} />
+        <img src="https://cvws.icloud-content.com/B/AS7HMbdF2GbQd2Q2UdjvkSraXMwKAZro1ZgrkguOc2IQ5OvcNlHeZJwJ/171076656381808290.png?o=Ao7QHiuofmJL3U8cGcrSvSPJ9XpdwqqRqdfw6JLxTrfe&v=1&x=3&a=CAogaUo1qfSAwdB_hP4we662UBDzsxP2SA4LGGwwxdV6JMsSbxD0sZCN5TEY9I7sjuUxIgEAUgTaXMwKWgTeZJwJaifd9ZEGuXDSj9CokQoBSLnV3lqA-VulCVMOp4j6qr1ZnRVSQbNnswhyJ1-tcVvDjjwf5vWJcBZ7BTabxm1Iklttm1VV_2dYFXUgZyZ4kv1AGQ&e=1710770292&fl=&r=5c10db8a-113b-4ca5-9cd1-fcff8daaad22-1&k=F0yEStTILCThPgAEVVI_ig&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=116&s=NjjsgUPbxnWIItdl36KmSk7w9iw&cd=i" alt="hoobank" className={`${toggle === true ? "bg-primary rounded p-2 transition duration-300" : " transition duration-300"} transition duration-300 w-[100px] z-50`} />
       </Link>
       <AnimatedNavbar duration={500} />
       <div className="md:hidden flex justify-end items-center">

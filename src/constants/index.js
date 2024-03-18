@@ -242,7 +242,7 @@ export const industry = [{
 export const feedback = [{
         id: "feedback-1",
         subheader: "Amazing efforts and On time Delivery",
-        content: "I would highly recommend DishIs Technology, it has been a pleasure to work with them on my App Development. I am so glad to have you as a development partner. I wish him the best of luck for success. A thing which I have observed that is Quality Proof and On-Time Delivery for My all Defined Milestone irrespective of the situation but never missed the Delivery timeline.",
+        content: "I would highly recommend GoWithTech, it has been a pleasure to work with them on my App Development. I am so glad to have you as a development partner. I wish him the best of luck for success. A thing which I have observed that is Quality Proof and On-Time Delivery for My all Defined Milestone irrespective of the situation but never missed the Delivery timeline.",
         name: "Joe Martin",
         title: "Nena Celeste",
         img: people01,
@@ -250,7 +250,7 @@ export const feedback = [{
     {
         id: "feedback-3",
         subheader: "Great Work & RIch Experience to achieve my business GOAL",
-        content: "I have been working with DishIs Technology for the last 8 months. It’s been a wonderful experience so far with them, On-Time Delivery with Quality Proof products have been delivered. The Most Important aspect is Daily Call Updates and Project Progress to me with the latest Development and enhancement on my Product. I would give them the highest rating for superb efforts",
+        content: "I have been working with GoWithTech for the last 8 months. It’s been a wonderful experience so far with them, On-Time Delivery with Quality Proof products have been delivered. The Most Important aspect is Daily Call Updates and Project Progress to me with the latest Development and enhancement on my Product. I would give them the highest rating for superb efforts",
         name: "Vincent Mogaka Nyabuto",
         title: "Cladchat (Founder)",
         img: people03,
@@ -258,7 +258,7 @@ export const feedback = [{
     {
         id: "feedback-2",
         subheader: "",
-        content: "<b> DishIs Technology </b> did amazing work, they committed to delivering and they have the right skills and experience to deliver the scope of work on time with high quality, most importantly, they have a nice attitude and easy going persons that makes you feel comfortable working with them.",
+        content: "<b> GoWithTech </b> did amazing work, they committed to delivering and they have the right skills and experience to deliver the scope of work on time with high quality, most importantly, they have a nice attitude and easy going persons that makes you feel comfortable working with them.",
         name: "Mohammad Al-Masri",
         title: "Scanning Application",
         img: people02,
@@ -435,25 +435,18 @@ export const stats = [{
 
 export const footerLinks = [{
         title: "Useful Links",
-        links: [{
-                name: "Content",
-                link: "https://www.hoobank.com/content/",
-            },
+        links: [
             {
                 name: "How it Works",
-                link: "https://www.hoobank.com/how-it-works/",
-            },
-            {
-                name: "Create",
-                link: "https://www.hoobank.com/create/",
+                link: "/process",
             },
             {
                 name: "Explore",
-                link: "https://www.hoobank.com/explore/",
+                link: "/case-studies/bridging_the_gap_in_online_education_integration_of_ai_and_gaming",
             },
             {
                 name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
+                link: "/terms",
             },
         ],
     },
@@ -461,23 +454,19 @@ export const footerLinks = [{
         title: "Community",
         links: [{
                 name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
+                link: "/help",
             },
             {
                 name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
+                link: "#clients",
             },
             {
                 name: "Blog",
-                link: "https://www.hoobank.com/blog/",
+                link: "/blog",
             },
             {
                 name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
+                link: "/work",
             },
         ],
     },
@@ -485,11 +474,11 @@ export const footerLinks = [{
         title: "Partner",
         links: [{
                 name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
+                link: "/clients",
             },
             {
                 name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
+                link: "/request-quote",
             },
         ],
     },
@@ -498,22 +487,22 @@ export const footerLinks = [{
 export const socialMedia = [{
         id: "social-media-1",
         icon: dribble,
-        link: "https://dribbble.com/DishIs-technology",
+        link: "https://dribbble.com/GoWithTech",
     },
     {
         id: "social-media-2",
         icon: facebook,
-        link: "https://www.facebook.com/DishIs.technology",
+        link: "https://www.facebook.com/GoWithTech",
     },
     {
         id: "social-media-3",
         icon: twitter,
-        link: "https://twitter.com/DishIsT",
+        link: "https://twitter.com/GoWithTech",
     },
     {
         id: "social-media-4",
         icon: behance,
-        link: "https://www.behance.net/DishIs/",
+        link: "https://www.behance.net/GoWithTech",
     },
 ];
 

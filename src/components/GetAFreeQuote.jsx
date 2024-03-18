@@ -25,25 +25,25 @@ const GetAFreeQuote = ({className}) => {
           <div className="flex flex-col   md:flex-row justify-between ">
             <div className="flex flex-col pb-4 w-[50%]">
               <h1 className=" py-2 opacity-70 text-lg font-semibold tracking-wide " >Project Enquiries </h1>
-              <a href="" className="hover:text-green-400">enquiry.dishis</a>
-              <a href="mailto:info@dishis.in" className="hover:text-green-400">info@dishis.in</a>
+              <a href="mailto:enquiry@gowith.tech" className="hover:text-green-400">enquiry@gowith.tech</a>
+              <a href="mailto:info@gowith.tech" className="hover:text-green-400">info@gowith.tech</a>
             </div>
 
             <div className="flex flex-col w-[50%] ">
               <h1 className=" py-2 opacity-70 text-lg font-semibold tracking-wide " >Career </h1>
               <a href="tel:+917948000686" className="hover:text-green-400">+91 79 48000686</a>
-              <a href="mailto:career@dishis.in" className="hover:text-green-400 pb-2" >career@dishis.in</a>
+              <a href="mailto:career@gowith.tech" className="hover:text-green-400 pb-2" >career@gowith.tech</a>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row py-8">
             <div className="flex flex-col w-[50%] ">
               <h1 className="py-2 opacity-70 text-lg font-semibold tracking-wide " > New Business</h1>
-              <a href="mailto:dishis@gmail.com" className="hover:text-green-400" >dishis@gmail.com</a>
+              <a href="mailto:contact@gowith.tech" className="hover:text-green-400" >contact@gowith.tech</a>
             </div>
             <div className="flex flex-col w-[50%] ">
               <h1 className="py-2 opacity-70  text-lg font-semibold tracking-wide" >General Enquiries</h1>
-              <a href="mailto:info@dishis.in" className="hover:text-green-400" > info@dishis.in</a>
+              <a href="mailto:info@gowith.tech" className="hover:text-green-400" > info@gowith.tech</a>
             </div>
           </div>
           <h1 className="py-5 opacity-70 text-lg" > Our Offices </h1>
@@ -60,11 +60,11 @@ const GetAFreeQuote = ({className}) => {
                 </div>
 
                 <p className="text-base py-2 opacity-75">
-                  1st Floor, DishIs Inc,
+                  1st Floor, GoWithTech Inc,
                   <br />
                   Example Address Given,
                   <br />
-                  near dishis, Makarba,
+                  near GoWithTech, Makarba,
                   <br />
                   Ahmedabad-380051
                   <br />

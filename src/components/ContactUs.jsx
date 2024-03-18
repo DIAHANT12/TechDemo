@@ -277,7 +277,7 @@ const ContactUs = ({ className }) => {
                         {sent && <p className="text-red-400 w-full text-center py-1 text-sm">{sent}</p>}
                         <div className=" text-center">
                             <p className="py-2">Facing trouble in submitting form? then simply mail us on</p>
-                            <a className=" text-green-400 hover:border-b-2 hover:border-green-400 " href="mailto:info@dishis.in">info@dishis.in</a>
+                            <a className=" text-green-400 hover:border-b-2 hover:border-green-400 " href="mailto:info@gowith.tech">info@gowith.tech</a>
                         </div>
                     </form>
                 </div>

@@ -21,7 +21,7 @@ const Seo = ({
   const ogUrl =
     typeof window !== "undefined" ? window.location.pathname : null;
   const siteUrl = window.location.origin;
-  const ogSiteNameDefault = `DishIs Technology`;
+  const ogSiteNameDefault = `GoWithTech`;
   const ogTypeDefault = `article`;
   const twitterCardDefault = `summary_large_image`;
 
@@ -44,9 +44,9 @@ const Seo = ({
   const schemaOrgJSONLD = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "DishIs",
+    name: "GoWithTech",
     description: seoMeta.description,
-    alternateName: "DishIs By Dishant Singh",
+    alternateName: "GoWithTech",
     url: `${siteUrl}`,
     logo: `${siteUrl}/logo.png`,
     sameAs: [

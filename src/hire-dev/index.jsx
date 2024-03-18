@@ -18,10 +18,10 @@ import VSCards from "../components/VSCards";
 import { blogs } from "../constants";
 
 const HireDev = () => {
-    const code = `c onst DishIsTech = require('Development')
+    const code = `c onst GoWithTechTech = require('Development')
 
 // Hire the best suited developers
-let developer = await dishis.skills.hire({
+let developer = await GoWithTech.skills.hire({
   Name: 'Dishant Singh',
   Experience: '2+ years',
   Technologies: 'React.JS, DSA, Node.JS, Python'

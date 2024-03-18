@@ -1,7 +1,7 @@
 export const HomeMeta = {
-  metaTitle: `Custom Software Development Company India - CMTech`,
+  metaTitle: `Custom Software Development Company India - GoWithTech`,
   metaDescription:
-    "CmTech is a trusted custom software development company India. We build robust software, mobile apps and web apps for versatile niches across the globe.",
+    "GoWithTech is a trusted custom software development company India. We build robust software, mobile apps and web apps for versatile niches across the globe.",
   ogTitle: "",
   ogDescription: "",
   ogType: "website",
@@ -23,7 +23,7 @@ export const GetAFreeQuoteMeta = {
 };
 
 export const WorkMeta = {
-  metaTitle: `CmTech works: Web, apps, & enterprise software`,
+  metaTitle: `GoWithTech works: Web, apps, & enterprise software`,
   metaDescription:
     "We have built web, apps, Mobile apps, enterprise software, and more. See the success stories of our global clients from across the industries.",
   ogImage: "",
@@ -31,7 +31,7 @@ export const WorkMeta = {
 };
 
 export const BlogMeta = {
-  metaTitle: `Blogs | CMTech`,
+  metaTitle: `Blogs | GoWithTech`,
   metaDescription:
     "Stay updated with the latest news and trends in mobile app & software development, IoT, Blockchain, and most latest technologies via our well-researched blogs.",
   ogImage: "",
