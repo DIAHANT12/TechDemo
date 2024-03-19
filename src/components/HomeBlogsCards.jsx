@@ -1,14 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const truncateContent = (content, wordLimit) => {
-    const words = content.split(" ");
-    if (words.length > wordLimit) {
-        const truncatedWords = words.slice(0, wordLimit);
-        return truncatedWords.join(" ") + "...";
-    }
-    return content;
-};
 
 const HomeBlogsCard = ({ content, title, img, id, className }) => {
     return (

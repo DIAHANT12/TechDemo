@@ -26,7 +26,6 @@ const AnimatedNavbar = ({ duration }) => {
   
 
   const resetDropdownState = (i) => {
-    "use strict"
     setActiveIndices(typeof i === "number" ? [i] : []);
     setAnimatingOut(false);
     // delete animatingOutTimeout;

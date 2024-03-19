@@ -1,33 +1,6 @@
 import React from "react"
 
 const ProcessComponent = () => {
-    const list = [
-        {
-            head: "Language",
-            lists: ["Dart"]
-        },
-        {
-            head: "IDE",
-            lists: ["Android Studio", "VS Code"]
-        },
-        {
-            head: "Packages",
-            lists: ["FL Charts", "Provider", "Getx", "Http", "Intl", "Googleapis", "Firebase Messaging"]
-        },
-        {
-            head: "Database",
-            lists: ["SQLite", "Realm"]
-        },
-        {
-            head: "Architecture",
-            lists: ["BloC Pattern", "Getx"]
-        },
-        {
-            head: "Tools",
-            lists: ["Flutter SDK"]
-        },
-    ]
-
 
     return (
         <section className="bg-secondary sm:px-16 px-6 flex justify-center my-20 items-start font-poppins pt-14">

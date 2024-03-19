@@ -1,7 +1,6 @@
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import "./model.css";
-import tel from "../assets/tel.svg"
 import Email from "../assets/email.svg"
 import skype from "../assets/skype.svg"
 import Caller from "../assets/call.svg"
