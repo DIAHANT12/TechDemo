@@ -80,44 +80,14 @@ const Title = styled.h4`
     transform-origin: 0% 50%;
   }
 `
-const SubProductsList = styled.ul`
-  li {
-    display: flex;
-    margin-bottom: 0.6rem;
-    margin-left: 2.7rem;
-  }
-  h3 {
-    margin-right: 0.5rem;
-    width: 3.2rem;
-    display: block; 
-  }
-  div {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  a {
-    color: var(--dark-grey);
-  }
-`
+
 const ProductsSection = styled.ul`
   li {
     display: flex;
     align-items: center;
   }
 `
-const WorksWithStripe = styled.div`
- border-top: 2px solid #fff;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: var(--spacer);
-  padding-top: var(--spacer);
-}
-h3 {
-  margin-bottom: 0;
-}
-`
+
 const Flex = styled.div`
   display: flex;
   > div {

@@ -46,18 +46,7 @@ const ProductsSection = styled.ul`
   }
 `
 
-const WorksWithStripe = styled.div`
- border-top: 2px solid #fff;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: var(--spacer);
-  padding-top: var(--spacer);
-}
-h3 {
-  margin-bottom: 0;
-}
-`
+
 
 const ProductsDropdown = () => {
   return (

@@ -56,7 +56,7 @@ const ClientLogo = () => {
                             key={index}
                             className="w-1/3 xs:w-1/5 flex items-center">
                             <img tabIndex="0" className="grayscale transition duration-500 hover:grayscale-0 " src={links.link}
-                                alt={links.alt} role="img" />
+                                alt={links.alt} />
                         </div>
                     ))}
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProcessCards = ({ list }) => {
+const ProcessCards = (list) => {
     return (
         <div className="flex w-full justify-center gap-5 flex-wrap">
             {list.map((content, index) => (
