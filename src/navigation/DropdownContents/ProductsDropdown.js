@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Icon, DropdownSection, Heading } from "./Components"
+import { DropdownSection, Heading } from "./Components"
 import {ourvalue, ourstory, process, engagementmodel, confidentiality, blog} from "../../assets";
 
 const ProductsDropdownEl = styled.div`
@@ -64,7 +64,7 @@ const ProductsDropdown = () => {
       <DropdownSection data-first-dropdown-section>
         <ProductsSection>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={ourstory}
@@ -75,10 +75,10 @@ const ProductsDropdown = () => {
               <div>
                 <Heading color="theme">Our Story</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={ourvalue}
@@ -89,10 +89,10 @@ const ProductsDropdown = () => {
               <div>
                 <Heading color="theme">Our Value</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={process}
@@ -103,10 +103,10 @@ const ProductsDropdown = () => {
               <div>
                 <Heading color="theme">Process</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={engagementmodel}
@@ -117,10 +117,10 @@ const ProductsDropdown = () => {
               <div>
                 <Heading color="theme">Engagement Model</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={confidentiality}
@@ -131,12 +131,12 @@ const ProductsDropdown = () => {
               <div>
                 <Heading color="theme">Confidentiality</Heading>
               </div>
-            </a>
+            </Link>
           </li>
         </ProductsSection>
       </DropdownSection>
       <DropdownSection>
-        <a className="flex flex-1 items-center mb-10" href='/'>
+        <Link className="flex flex-1 items-center mb-10" to='/'>
           <Logo color="transperant">
             <img
                 src={blog}
@@ -147,18 +147,18 @@ const ProductsDropdown = () => {
           <div>
             <Heading color="theme">Latest News</Heading>
           </div>
-        </a>
+        </Link>
         <SubProductsList>
           <li>
             <div>
-              <a href='/'> &rsaquo; The best way to start an internet business.</a>
+              <Link to='/'> &rsaquo; The best way to start an internet business.</Link>
             </div>
           </li>
           <li>
-            <div><a href='/'> &rsaquo; The best way to start an internet business.</a></div>
+            <div><Link to='/'> &rsaquo; The best way to start an internet business.</Link></div>
           </li>
           <li>
-            <div><a href='/'> &rsaquo; The best way to start an internet business.</a></div>
+            <div><Link to='/'> &rsaquo; The best way to start an internet business.</Link></div>
           </li>
         </SubProductsList>
       </DropdownSection>

@@ -5,10 +5,6 @@ import {
     Navbar,
     Contact,
     Methodology,
-    PowerClients,
-    NicheSolution,
-    LogisticDetails,
-    BusinessEfic,
     ProcessCards,
     CardsSwiper,
     Testimonials,
@@ -108,7 +104,7 @@ const ProcessPage = () => {
                 </div>
             </div>
             <section style={{ backgroundPosition: '70%' }} className="py-14 bg-cover bg-no-repeat md:h-[35.875rem] h-[35rem] xs:h-[28.875rem] ss:h-[50.875rem] sm:h-[47.875rem] w-full bg-[url('https://i.ibb.co/qr9vWXH/DALL-E-2023-05-27-23-58-51-a-landscape-black-background-with-white-fading-stripes-on-its-corners.png')]">
-                <div className="flex pt-10 pt-12 h-full w-full md:mt-0 mt-12 justify-center">
+                <div className="flex pt-12 h-full w-full md:mt-0 mt-12 justify-center">
                     <div className="font-poppins banner-content text-center md:py-7">
                         <p className="text-white tracking-widest">
                             AGILE METHODOLOGY

@@ -198,15 +198,15 @@ const BlogPosts = ({ categoryname, title, authorIamge, authorName, authorProff, 
                 <div className="sticky top-24 pt-12 p-4 h-full w-[100px] hidden sm:flex items-center flex-col text-white">
                     <h2 className="text-xl font-light mb-4">SHARE</h2>
                     <div className="flex flex-col">
-                        <a href="#" className="flex items-center hover:bg-opacity-25 p-2 justify-center mb-6 w-10 h-10 bg-blue-500 text-white rounded-full hover:bg-blue-600">
+                        <button href="#" className="flex items-center hover:bg-opacity-25 p-2 justify-center mb-6 w-10 h-10 bg-blue-500 text-white rounded-full hover:bg-blue-600">
                             <img src={facebook} className="w-full h-full" alt="" />
-                        </a>
-                        <a href="#" className="flex items-center justify-center p-2 mb-6 w-10 h-10 bg-red-500 text-white rounded-full hover:bg-red-600">
+                        </button>
+                        <button href="#" className="flex items-center justify-center p-2 mb-6 w-10 h-10 bg-red-500 text-white rounded-full hover:bg-red-600">
                             <img src={linkedin} className="w-full h-full" alt="" />
-                        </a>
-                        <a href="#" className="flex items-center justify-center p-2 w-10 h-10 bg-yellow-500 text-white rounded-full hover:bg-yellow-600">
+                        </button>
+                        <button href="#" className="flex items-center justify-center p-2 w-10 h-10 bg-yellow-500 text-white rounded-full hover:bg-yellow-600">
                             <img src={twitter} className="w-full h-full" alt="" />
-                        </a>
+                        </button>
                     </div>
                 </div>
 

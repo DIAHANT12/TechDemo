@@ -132,22 +132,22 @@ export default function ConnectModel({ open, setOpen }) {
                     <div className="adress-area w-full flex my-4 flex-col gap-6  md:flex-row " >
                         <div className="adress-area-1 pt-2  w-full mx-2 ">
                             <div className="flex">
-                            <img src="https://cdn.moontechnolabs.com/live/images/ind_flag.svg" className=" w-[70px] p-1 pr-3" />
+                            <img src="https://cdn.moontechnolabs.com/live/images/ind_flag.svg" className=" w-[70px] p-1 pr-3" alt=""/>
                         <span className=" text-sm font-bold pt-2">INDIA</span>
                             </div>
                         <p className="text-sm p-1">C-105,Ganesh Meridian,</p>
                         <p className="text-sm p-1 w-full">S.G.Hwy, Ahmedabad, GJ 380060</p>
                         <div className=" flex flex-row w-full ">
                         <a href="tel:+91 972-605-5109 " className="font-bold text-sm mr-1" >+91 972-605-5109</a>
-                        <img src={Caller} className="w-4 mx-1"/>
-                        <img src="https://cdn.moontechnolabs.com/live/images/images_svg/whatsapp.svg" className="mx-1" />
+                        <img src={Caller} className="w-4 mx-1" alt=""/>
+                        <img src="https://cdn.moontechnolabs.com/live/images/images_svg/whatsapp.svg" className="mx-1" alt=""/>
                         
                         </div>
 
                        </div>
                        <div className="adress-area-2 pt-2 pb-2 w-full">
                        <div className="flex">
-                            <img src="https://cdn.moontechnolabs.com/live/images/usa-flag.svg" className=" w-[70px] p-1 pr-3" />
+                            <img src="https://cdn.moontechnolabs.com/live/images/usa-flag.svg" className=" w-[70px] p-1 pr-3" alt=""/>
                         <span className="text-sm font-bold pt-2">UNITED STATES</span>
                             </div>
                             
@@ -159,8 +159,8 @@ export default function ConnectModel({ open, setOpen }) {
                         <p className="text-sm p-1 mb-4  ">New York City, NYC 10001 </p>
                         <div className=" flex flex-row w-full ">
                         <a href="tel:+91 972-605-5109 " className="text-sm font-bold mr-1" >+91 972-605-5109</a>
-                        <img src={Caller} className="w-4 mx-1"/>
-                        <img src="https://cdn.moontechnolabs.com/live/images/images_svg/whatsapp.svg" className="mx-1" />
+                        <img src={Caller} className="w-4 mx-1" alt=""/>
+                        <img src="https://cdn.moontechnolabs.com/live/images/images_svg/whatsapp.svg" className="mx-1" alt=""/>
                         
                         </div>
                         
@@ -190,11 +190,11 @@ export default function ConnectModel({ open, setOpen }) {
                     </div>
                     <div className=" side-bar2 flex flex-col h-[30%] content-between items-center ">
                         <div className="py-1 flex "> 
-                            <img src={Email}  className="w-[25px] "   />
+                            <img src={Email}  className="w-[25px] "  alt="" />
                             <a href="mailto:sales@moontechnolabs.com"  className="px-2">Sales@moontechnolabs.com</a>
                         </div>
                         <div className="py-1 flex  justify-self-start w-[240px]">  
-                        <img src={skype}  className="w-[25px] py-1 "   />
+                        <img src={skype}  className="w-[25px] py-1 " alt=""  />
                             <a href="skype:sales@moontechnolabs?chat" className=" pl-2" >Moon Technolads</a>
                         </div>
 

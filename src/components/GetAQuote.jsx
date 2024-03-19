@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import bag_icon from "../../src/assets/bag.svg";
-import styles from "../style";
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 const GetAQuote = () => {

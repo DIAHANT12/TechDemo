@@ -1,5 +1,5 @@
 import React from "react"
-import { Footer, Navbar, Hero } from "../components"
+import { Footer, Navbar } from "../components"
 import styles from "../style"
 import BlogPosts from "../components/BlogPost"
 const ExPage = () => {

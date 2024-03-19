@@ -5,12 +5,7 @@ import {
   DropdownSection
 } from "./Components"
 import {
-  android, angularjs,
-  bank,
-  ecommercei,
-  education, flutter, fsapp,
-  healthcare, hotel, ios, logistic, nodejs, reactjs,
-  social, travel
+  android, angularjs, flutter, fsapp, ios, nodejs, reactjs,
 } from "../../assets";
 import { Link } from "react-router-dom";
 

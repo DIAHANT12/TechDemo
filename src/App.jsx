@@ -11,7 +11,7 @@ import FlutterEx from "./flutter-ex";
 import HireDev from "./hire-dev";
 import ProcessPage from "./process-ex";
 import IosProcessEx from "./ios-process-ex";
-import { ClientLogo, Clients } from "./components";
+import { ClientLogo } from "./components";
 
 
 

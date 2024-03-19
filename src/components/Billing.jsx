@@ -1,7 +1,6 @@
-import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 import GetStartedSM from "./GetStartedSM";
-import {features, industry} from "../constants";
+import { industry} from "../constants";
 
 const Billing = () => (
         <section id="product" className={layout.sectionReverse}>
