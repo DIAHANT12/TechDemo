@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="flex z-50 py-2 items-center navbar justify-between md:justify-around  backdrop-blur-md shadow-md w-full sm:px-10 fixed top-0 left-0 right-0 px-2 md:px-3">
       <Link className="z-50" to="/">
-        <img src="https://github.com/DIAHANT12/gowithtech/blob/main/171076656381808290.png" alt="GoWithTech" className={`${toggle === true ? "bg-primary rounded p-2 transition duration-300" : " transition duration-300"} transition duration-300 w-[100px] z-50`} />
+        <img src="https://raw.githubusercontent.com/DIAHANT12/gowithtech/main/171076656381808290.png" alt="GoWithTech" className={`${toggle === true ? "bg-primary rounded p-2 transition duration-300" : " transition duration-300"} transition duration-300 w-[100px] z-50`} />
       </Link>
       <AnimatedNavbar duration={500} />
       <div className="md:hidden flex justify-end items-center">
