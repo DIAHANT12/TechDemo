@@ -1,5 +1,5 @@
 import styles from "../style";
-import {discount, herobg, robot} from "../assets";
+import { herobg} from "../assets";
 import GetStarted from "./GetStarted";
 
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import AnimatedNavbar from "../navigation/AnimatedNavbar";
 import { Link } from "react-router-dom";
