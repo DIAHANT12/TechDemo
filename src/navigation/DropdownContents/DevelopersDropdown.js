@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import {
-  Icon,
   DropdownSection,
   Heading,
   HeadingLink,
@@ -11,11 +10,6 @@ import {
   ios,
   android,
   reactnative,
-  confidentiality,
-  engagementmodel,
-  ourstory,
-  ourvalue,
-  process,
   flutter,
   windowsapp,
   wearable,
@@ -31,8 +25,6 @@ import {
   ci,
   ecommerce,
   wordpress,
-  pwa,
-  asp,
   iot,
   blockchain,
   webrtc,
@@ -147,7 +139,7 @@ const DevelopersDropdown = () => {
                 <DropdownSection className="paddingTL-10" data-first-dropdown-section>
                   <ProductsSection>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={ios}
@@ -158,10 +150,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme">iOS Development</Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={android}
@@ -172,10 +164,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme">Android Development</Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={reactnative}
@@ -186,10 +178,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> React Native App Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={flutter}
@@ -200,10 +192,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme">Flutter App Development</Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={windowsapp}
@@ -214,10 +206,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Windows App Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={wearable}
@@ -228,10 +220,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Wearable App Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={saas}
@@ -242,10 +234,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> SaaS Application Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={customapp}
@@ -256,7 +248,7 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme">  Custom App Development  </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </ProductsSection>
                 </DropdownSection>
@@ -268,7 +260,7 @@ const DevelopersDropdown = () => {
                 <DropdownSection className="paddingTL-10" data-first-dropdown-section>
                   <ProductsSection>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={nodejs}
@@ -279,10 +271,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> NodeJS Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={angularjs}
@@ -293,10 +285,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Angular Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={reactjs}
@@ -307,10 +299,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> ReactJS Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={php}
@@ -321,10 +313,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> PHP Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={laravel}
@@ -335,10 +327,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Laravel Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={dotnet}
@@ -349,10 +341,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Dot Net Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={python}
@@ -363,10 +355,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Python Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={ci}
@@ -377,10 +369,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> CodeIgnitor Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={ecommerce}
@@ -391,10 +383,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> eCommerce Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={wordpress}
@@ -405,10 +397,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> WordPress Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     {/*<li>*/}
-                    {/*  <a className="flex flex-1 items-center" href='/'>*/}
+                    {/*  <Link className="flex flex-1 items-center" to='/'>*/}
                     {/*    <Logo color="white">*/}
                     {/*      <img*/}
                     {/*          src={pwa}*/}
@@ -419,10 +411,10 @@ const DevelopersDropdown = () => {
                     {/*    <div>*/}
                     {/*      <Heading color="theme"> Progressive Web App development </Heading>*/}
                     {/*    </div>*/}
-                    {/*  </a>*/}
+                    {/*  </Link>*/}
                     {/*</li>*/}
                     {/*<li>*/}
-                    {/*  <a className="flex flex-1 items-center" href='/'>*/}
+                    {/*  <Link className="flex flex-1 items-center" to='/'>*/}
                     {/*    <Logo color="white">*/}
                     {/*      <img*/}
                     {/*          src={asp}*/}
@@ -433,7 +425,7 @@ const DevelopersDropdown = () => {
                     {/*    <div>*/}
                     {/*      <Heading color="theme"> ASP.NET development </Heading>*/}
                     {/*    </div>*/}
-                    {/*  </a>*/}
+                    {/*  </Link>*/}
                     {/*</li>*/}
                   </ProductsSection>
                 </DropdownSection>
@@ -445,7 +437,7 @@ const DevelopersDropdown = () => {
                 <DropdownSection className="paddingTL-10" data-first-dropdown-section>
                   <ProductsSection>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={iot}
@@ -456,10 +448,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> IoT App Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={blockchain}
@@ -470,10 +462,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Blockchain Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={webrtc}
@@ -484,10 +476,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> WebRTC Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={asterisk}
@@ -498,10 +490,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Asterisk Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={cloud}
@@ -512,10 +504,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> Cloud App Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={arvr}
@@ -526,10 +518,10 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> AR/VR Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="flex flex-1 items-center" href='/'>
+                      <Link className="flex flex-1 items-center" to='/'>
                         <Logo color="white">
                           <img
                               src={aiml}
@@ -540,7 +532,7 @@ const DevelopersDropdown = () => {
                         <div>
                           <Heading color="theme"> AI/ML Development </Heading>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </ProductsSection>
                 </DropdownSection>
@@ -553,7 +545,7 @@ const DevelopersDropdown = () => {
         <Flex>
           <ul className="mr-30 flex-1">
             <HeadingLink>
-              <a className="flex items-center flex-1" href="/">
+              <Link className="flex items-center flex-1" to="/">
                 <div>
                   <img
                       src={softwaredevelopment}
@@ -565,10 +557,10 @@ const DevelopersDropdown = () => {
                   <Heading className="submenu" color="transperant">Software Development</Heading>
                   <p className="submenu-desc">Providing tailored software development services</p>
                 </div>
-              </a>
+              </Link>
             </HeadingLink>
             <HeadingLink>
-              <a className="flex items-center mt-4 flex-1" href="/">
+              <Link className="flex items-center mt-4 flex-1" to="/">
                 <div className="mr-5">
                   <img
                       src={mvp}
@@ -580,12 +572,12 @@ const DevelopersDropdown = () => {
                   <Heading className="submenu" color="transperant">MVP Development</Heading>
                   <p className="submenu-desc">Unleash your business's potential with MVP development - start small, succeed big</p>
                 </div>
-              </a>
+              </Link>
             </HeadingLink>
           </ul>
           <ul>
             <HeadingLink>
-              <a className="flex items-center flex-1" href="/">
+              <Link className="flex items-center flex-1" to="/">
                 <div>
                   <img
                       src={devops}
@@ -597,10 +589,10 @@ const DevelopersDropdown = () => {
                   <Heading className="submenu" color="transperant">DevOps</Heading>
                   <p className="submenu-desc">Providing top-notch DevOps services tailored to your needs</p>
                 </div>
-              </a>
+              </Link>
             </HeadingLink>
             <HeadingLink>
-              <a className="flex items-center mt-4 flex-1" href="/">
+              <Link className="flex items-center mt-4 flex-1" to="/">
                 <div>
                   <img
                       src={rass}
@@ -612,7 +604,7 @@ const DevelopersDropdown = () => {
                   <Heading className="submenu" color="transperant">Resource as a Service</Heading>
                   <p className="submenu-desc">Grow your software team with our experienced professionals</p>
                 </div>
-              </a>
+              </Link>
             </HeadingLink>
           </ul>
         </Flex>

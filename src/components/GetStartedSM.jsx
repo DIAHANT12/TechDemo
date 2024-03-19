@@ -1,5 +1,4 @@
 import styles from "../style";
-import { arrowUp } from "../assets";
 
 const GetStartedSM = ({ icon, name, link, index }) => (
     <a href={link} key={index}

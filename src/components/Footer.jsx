@@ -1,5 +1,4 @@
 import styles from "../style";
-import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import { Link } from "react-router-dom";
 
@@ -9,7 +8,7 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src="https://cvws.icloud-content.com/B/AS7HMbdF2GbQd2Q2UdjvkSraXMwKAZro1ZgrkguOc2IQ5OvcNlHeZJwJ/171076656381808290.png?o=Ao7QHiuofmJL3U8cGcrSvSPJ9XpdwqqRqdfw6JLxTrfe&v=1&x=3&a=CAogaUo1qfSAwdB_hP4we662UBDzsxP2SA4LGGwwxdV6JMsSbxD0sZCN5TEY9I7sjuUxIgEAUgTaXMwKWgTeZJwJaifd9ZEGuXDSj9CokQoBSLnV3lqA-VulCVMOp4j6qr1ZnRVSQbNnswhyJ1-tcVvDjjwf5vWJcBZ7BTabxm1Iklttm1VV_2dYFXUgZyZ4kv1AGQ&e=1710770292&fl=&r=5c10db8a-113b-4ca5-9cd1-fcff8daaad22-1&k=F0yEStTILCThPgAEVVI_ig&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=116&s=NjjsgUPbxnWIItdl36KmSk7w9iw&cd=i"
-          alt="DishIs"
+          alt="GoWithTech"
           className="w-[120px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>

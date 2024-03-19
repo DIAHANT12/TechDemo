@@ -1,8 +1,5 @@
-import { card, rapidgas } from "../assets";
-import styles, { layout } from "../style";
-import Button from "./Button";
+import styles from "../style";
 import React from "react";
-import GetStarted from "./GetStarted";
 import GetStartedDynamic from "./GetStartedDynamic";
 import { Navigation, Pagination, A11y, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'

@@ -1,7 +1,5 @@
-import {blogs, feedback} from "../constants";
+import {blogs} from "../constants";
 import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
-import BlogCard from "./BlogCard";
 import HomeBlogsCard from "./HomeBlogsCards";
 
 const fewBlogs = blogs.slice(0, 3)

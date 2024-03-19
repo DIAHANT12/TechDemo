@@ -74,7 +74,7 @@ const CompanyDropdown = () => {
       <DropdownSection data-first-dropdown-section>
         <ProductsSection>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={healthcare}
@@ -85,10 +85,10 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Healthcare</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={education}
@@ -99,10 +99,10 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Education</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={ecommercei}
@@ -113,10 +113,10 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">eCommerce</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={hotel}
@@ -127,10 +127,10 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Hotel & Industries</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={travel}
@@ -141,10 +141,10 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Travel & Tourism</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={bank}
@@ -155,7 +155,7 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Banking & Finance</Heading>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
             <Link className="flex flex-1 items-center" to='/logistic-software-development'>
@@ -172,7 +172,7 @@ const CompanyDropdown = () => {
             </Link>
           </li>
           <li>
-            <a className="flex flex-1 items-center" href='/'>
+            <Link className="flex flex-1 items-center" to='/'>
               <Logo color="white">
                 <img
                     src={social}
@@ -183,12 +183,12 @@ const CompanyDropdown = () => {
               <div>
                 <Heading color="theme">Social Networking</Heading>
               </div>
-            </a>
+            </Link>
           </li>
         </ProductsSection>
       </DropdownSection>
       {/*<DropdownSection>*/}
-      {/*  <a className="flex flex-1 items-center mb-10" href='/'>*/}
+      {/*  <Link className="flex flex-1 items-center mb-10" to='/'>*/}
       {/*    <Logo color="transperant">*/}
       {/*      <img*/}
       {/*          src={blog}*/}
@@ -199,18 +199,18 @@ const CompanyDropdown = () => {
       {/*    <div>*/}
       {/*      <Heading color="theme">Latest News</Heading>*/}
       {/*    </div>*/}
-      {/*  </a>*/}
+      {/*  </Link>*/}
       {/*  <SubProductsList>*/}
       {/*    <li>*/}
       {/*      <div>*/}
-      {/*        <a href='/'> &rsaquo; The best way to start an internet business.</a>*/}
+      {/*        <Link to='/'> &rsaquo; The best way to start an internet business.</Link>*/}
       {/*      </div>*/}
       {/*    </li>*/}
       {/*    <li>*/}
-      {/*      <div><a href='/'> &rsaquo; The best way to start an internet business.</a></div>*/}
+      {/*      <div><Link to='/'> &rsaquo; The best way to start an internet business.</Link></div>*/}
       {/*    </li>*/}
       {/*    <li>*/}
-      {/*      <div><a href='/'> &rsaquo; The best way to start an internet business.</a></div>*/}
+      {/*      <div><Link to='/'> &rsaquo; The best way to start an internet business.</Link></div>*/}
       {/*    </li>*/}
       {/*  </SubProductsList>*/}
       {/*</DropdownSection>*/}

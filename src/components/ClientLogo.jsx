@@ -1,6 +1,5 @@
-import { card } from "../assets";
+
 import styles, { clientLayout } from "../style";
-import Button from "./Button";
 
 
 const ClientLogo = () => {

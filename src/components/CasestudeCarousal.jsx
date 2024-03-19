@@ -1,5 +1,5 @@
 import React from 'react'
-import {card, rapidgas} from "../assets";
+import { rapidgas } from "../assets";
 import { Link } from 'react-router-dom';
 import { caseStudiesLinks } from '../constants';
 

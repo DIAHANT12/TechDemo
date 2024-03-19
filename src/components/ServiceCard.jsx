@@ -1,8 +1,7 @@
-import CustomButton from "./CustomButton";
-import GetStartedSM from "./GetStartedSM";
-import {arrowUp} from "../assets";
+import { Link } from "react-router-dom";
 
-const ServiceCard = ({content, name, title, img, icons, iconlink, link}) => (
+
+const ServiceCard = ({content, name, title, icons, iconlink}) => (
     <div
         className="relative rounded m-2 group bg-black-gradient-2 transition hover:z-[1] hover:shadow-2xl xl:block">
         <div
@@ -23,11 +22,11 @@ const ServiceCard = ({content, name, title, img, icons, iconlink, link}) => (
                 </div>
             </div>
             <div className="flex items-center justify-center  ">
-                <a href="#" className="flex justify-between items-center group-hover:text-white-600 absolute bottom-[20px]">
+                <Link to={"/work"} className="flex justify-between items-center group-hover:text-white-600 absolute bottom-[20px]">
                     <span className="text-sm text-white">Read more</span>
                     <span
                         className="-translate-x-4 opacity-0 text-2xl ml-5 transition duration-300 group-hover:opacity-100 text-white group-hover:translate-x-0">→</span>
-                </a>
+                </Link>
             </div>
         </div>
     </div>

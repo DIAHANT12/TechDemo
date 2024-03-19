@@ -105,7 +105,7 @@ const Blog = () => {
                 </div>
                 <div className="w-full flex justify-center">
                     {displayedBlogs.length < blogs.length ? (
-                        <button className="my-8 px-6 py-3 drop-shadow-md text-white border border-white shadow-cla-blue px-4 py-1 rounded-full transition duration-300 hover:duration-500 hover:text-primary bg-gradient-to-r hover:from-cyan-400 hover:to-blue-400" onClick={handleLoadMore}>
+                        <button className="my-8 px-6 py-3 drop-shadow-md text-white border border-white shadow-cla-blue rounded-full transition duration-300 hover:duration-500 hover:text-primary bg-gradient-to-r hover:from-cyan-400 hover:to-blue-400" onClick={handleLoadMore}>
                             Load More
                         </button>
                     ) : (

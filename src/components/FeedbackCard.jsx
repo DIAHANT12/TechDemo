@@ -14,7 +14,7 @@ const FeedbackCard = ({ content, name, title, img, subheader, index }) => (
                         }
                         <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10" dangerouslySetInnerHTML={{__html: content}}></p>
                         <div>
-                            <h6 className="font-poppins font-semibold text-[20px] leading-[32px] text-white leading-none">{name}</h6>
+                            <h6 className="font-poppins font-semibold text-[20px] text-white ">{name}</h6>
                             <span className="font-poppins font-normal text-xs leading-[24px] text-dimWhite">{title}</span>
                         </div>
                     </div>
