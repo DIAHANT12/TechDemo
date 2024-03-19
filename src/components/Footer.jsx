@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} border-t-[1px] border-t-[#3F3E45] pt-10 md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src="https://github.com/DIAHANT12/gowithtech/blob/main/171076656381808290.png"
+          src="https://raw.githubusercontent.com/DIAHANT12/gowithtech/main/171076656381808290.png"
           alt="GoWithTech"
           className="w-[120px] object-contain"
         />
